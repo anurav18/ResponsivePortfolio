@@ -1,7 +1,27 @@
 .nav{
-    background-color: aqua;
+    background-color: lightgray;
 }
 
 .nav-link{
-    color: red;
+    color: gray;
+}
+a.active{
+       color:black; 
+}
+ul.justify-content-end {
+background-color:transparent;
+}
+.navbar-brand{
+    background-color: teal;
+}
+
+.body-image{
+  
+  width: 100%;
+  height: 100%;
+  background-image: url(assets/backgroundimage.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  
 }
