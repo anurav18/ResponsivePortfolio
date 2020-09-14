@@ -1,5 +1,6 @@
 .nav{
     background-color: lightgray;
+   
 }
 
 .nav-link{
@@ -13,6 +14,8 @@ background-color:transparent;
 }
 .navbar-brand{
     background-color: teal;
+    margin-left: 10px;
+   
 }
 
 .body-image{
@@ -25,3 +28,38 @@ background-color:transparent;
   display: block;
   
 }
+
+.body-image .container{
+    background-color:white;
+    width:65%;
+    margin-top: 100px;
+    margin-left: 30px;
+    padding: 40px;
+}
+
+.heading{
+    color:teal;
+}
+
+.horizontal-divider{
+    margin-top:5px;
+    margin-bottom:5px;
+    height:1px;
+    width:100%;
+    border-top:1px solid lightgray;
+   }
+   .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color:gray;
+    color: white;
+    text-align: center;
+    border-top: 10px solid teal;
+ }
+
+ .body-image button{
+     background-color: teal;
+ }
