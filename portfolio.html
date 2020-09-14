@@ -5,66 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
-<body>
-  <nav class="navbar navbar-light bg-light">
-    <a class="navbar-brand" href="index.html">Anusha Ravva</a>
-    <ul class="nav justify-content-end">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link active" href="portfolio.html">Portfolio</a>
-      </li>
-      <li class="nav-item">
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <h1 class="navbar-brand text-white">Anusha Ravva</h1>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-link active" href="index.html">About</a>
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
         <a class="nav-link" href="contact.html">Contact</a>
-      </li>
-      </ul>
+      </div>
+    </div>
     </nav>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h1 class="heading">About Me</h1> 
-        </div>
-        <div class="horizontal-divider"></div>
-    
-        <div class="row">
-          <div class="col-md-12">
-            <img src=  
-            "https://media.geeksforgeeks.org/wp-content/uploads/20190808143838/logsm.png"
-                                alt="Longtail boat in Thailand" style="float:left;margin:20px 20px 20px 0px;"> 
-          
-          
-            <p style="text-align:justify;margin-top: 20px;"> 
-              How many times were you frustrated while looking 
-              out for a good collection of programming/algorithm 
-              /interview questions? What did you expect and what 
-              did you get? This portal has been created to 
-              provide well written, well thought and well 
-              explained solutions for selected questions. 
-              An IIT Roorkee alumnus and founder of GeeksforGeeks. 
-              He loves to solve programming problems in most 
-              efficient ways. Apart from GeeksforGeeks, he has 
-              worked with DE Shaw and Co. as a software developer  
-              and JIIT Noida as an assistant professor. It is a 
-              good platform to learn programming. It is an 
-              educational website. Prepare for the Recruitment 
-              drive of product based companies like Microsoft, 
-              Amazon, Adobe etc with a free online placement 
-              preparation course. 
-            <br>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium sed maxime quia aut labore placeat aspernatur, sint, sit rem nulla dolor perferendis tempore ad dicta explicabo? Quae laboriosam ut dolorum.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ipsum eum magnam non eius quia, voluptatem itaque amet reiciendis quo maxime beatae recusandae, blanditiis, praesentium porro possimus iste ratione cupiditate!
-            </p>
-          </div>
-        </div>
-          
-    </div>
-    </div>
-    <div class="footer">
-      Copyright
-    </div>
-</body>
+</header>
+
+<body class="body-image">
+
+  <main class="container">
+
+    <section class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 portfolio"> 
+      <h1 class="heading">Portfolio</h1> 
+      <hr class="horizontal-divider"></hr>
+        <img class="portfolio-image" src="assets/backgroundimage.jpeg" alt="profile Picture"> 
+        <img class="portfolio-image" src="assets/backgroundimage.jpeg" alt="profile Picture"> 
+        <img class="portfolio-image" src="assets/backgroundimage.jpeg" alt="profile Picture"> 
+        <img class="portfolio-image" src="assets/backgroundimage.jpeg" alt="profile Picture"> 
+        <img class="portfolio-image" src="assets/backgroundimage.jpeg" alt="profile Picture"> 
+      </div>  
+    </section>
+  </main>
+      <footer class="footer">
+      &#169;Copyright
+     </footer>
+</body>  
+
 </html>

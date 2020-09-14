@@ -5,63 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- CSS Styles -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <title>Contact</title>
 </head>
-<body class="body-image">
-  <nav class="navbar navbar-light bg-light">
-    <a class="navbar-brand" href="index.html">Anusha Ravva</a>
-    <ul class="nav justify-content-end">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">Home</a>
-      </li>
-      <li class="nav-item">
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <h1 class="navbar-brand text-white">Anusha Ravva</h1>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-link active" href="index.html">About</a>
         <a class="nav-link" href="portfolio.html">Portfolio</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link active" href="contact.html">Contact</a>
-      </li>
-      </ul>
-    </nav>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h1 class="heading">Contact Me</h1> 
-        </div>
-        <div class="horizontal-divider"></div>
+        <a class="nav-link" href="contact.html">Contact</a>
+      </div>
     </div>
-        <div class="row">
-          <div class="col-md-9">
-            
-            <form>
-              <div class="form-group">
-                <label for="Name">Name</label>
-                <input type="text" class="form-control" id="InputName" aria-describedby="nameHelp" placeholder="Name">
-              </div>
-              <div class="form-group">
-              <label for="Email">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    </nav>
+</header>
+<body class="body-image">
+
+  <main class="container">
+
+    <section class="row">
+      <div class="col-xs-12 col-sm-8 col-md-9 contactMe"> 
+      <h1 class="heading">Contact Me</h1> 
+      <hr class="horizontal-divider"></hr>
+    
+          <form>
+            <div class="form-group">
+              <label for="Name">Name</label>
+              <input type="text" class="form-control" id="InputName" aria-describedby="nameHelp" placeholder="Name">
             </div>
             <div class="form-group">
-              <label for="Message">Message</label>
-              <textarea type="text" class="form-control" id="InputMessage" aria-describedby="messageHelp" placeholder="Message" rows="4"></textarea>
-            </div>
-            
-              
-              <button type="submit" class="btn btn-primary">Submit</button>
-              
-              </form>
-            </form>
-          
-           
+            <label for="Email">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
           </div>
-        </div>
-          
-    
-    </div>
-    <div class="footer">
-      Copyright
-    </div>
-</body>
+          <div class="form-group">
+            <label for="Message">Message</label>
+            <textarea type="text" class="form-control" id="InputMessage" aria-describedby="messageHelp" placeholder="Message" rows="4"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+           </form>
+      </div>
+      
+    </section>
+  </main>
+  <footer class="footer">
+    &#169;Copyright
+</footer>
+   </body>   
+   
 </html>
