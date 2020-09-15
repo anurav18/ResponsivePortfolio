@@ -57,7 +57,7 @@ a.active{
     float:left;
     margin:0px 20px 20px 0px;
     width:200px;
-    height: auto;
+    height: 200px;
  }
 
  .portfolio-image{
@@ -76,7 +76,8 @@ a.active{
 /* fixed Footer Styles  */
 
    .footer {
-    position: fixed;
+   
+   position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
