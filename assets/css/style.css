@@ -53,12 +53,16 @@ a.active{
     border-top:1px solid lightgray;
    }
 
+ /* About Me Page profile picture style */
+
 .aboutMe-image{
     float:left;
     margin:0px 20px 20px 0px;
     width:200px;
     height: 200px;
  }
+
+ /* Portfolio Page Styles */
 
  .portfolio-image{
     float:left;
@@ -67,6 +71,8 @@ a.active{
     height:350px; 
     align-items: center;
  }
+
+ /* Contact Me Button Style */
 
 .body-image .btn{
     background-color:rgb(40, 182, 182);
