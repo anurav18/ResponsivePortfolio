@@ -2,24 +2,6 @@
 
 You can view the project page at -> [Project Page]()
 
-## Table of Contents
-
-* [Project Whereabouts](#project-whereabouts)
-* [About Me Page](#aboutme-page)
-   *[About Me xs-screen](#aboutme-xs-screen)
-   *[About Me sm-screen](#aboutme-sm-screen)
-   *[About Me md-screen](#aboutme-md-screen)
-* [Portfolio Page](#portfolio-page)
-   *[Portfolio xs-screen](#portfolio-xs-screen)
-   *[Portfolio sm-screen](#portfolio-sm-screen)
-   *[Portfolio md-screen](#portfolio-md-screen)
-* [Contact Me Page](#contactme-page)
-   *[Contact Me xs-screen](#contactme-xs-screen)
-   *[Contact Me sm-screen](#contactme-sm-screen)
-   *[Contact Me md-screen](contactme-md-screen)
-* [Installation](installation)
-* [Project Page] (Project Page)
-
 ## Project Wherebabouts
 
 The Main adgenda of this project is to start creating a responsive portfolio, which will be used as an interaction to the external users where they can communicate with us eventually, It will have a breif overview on past experience, It also has a portfolio page which has a photo gallery listing all the previous achievements and special events. The ultimate goal is to build all these pages using the capabilities and functionalities available in bootstrap library. It is also very important to build these pages using HTML semantics.
@@ -45,29 +27,51 @@ The small screen is basically used for tablets and the navigation bar is collaps
 
 The medium screen is basically used for by general desktops. The Navigation bar will display all the three different links
 
-![md-900 screenshot](assets/portfolio/md-900.png)
+![md-900 screenshot](assets/About-Me/md-900.png)
 
 ## Portfolio Page
 
 This page has a list of pictures which shows my personality that I love to travel and like to live in the nature. I have been to Brazil during my Masters to attend a conference which was based out of photosensitive research.
 
-### Contact Me xs-screen
+### Portfolio xs-screen
 
-Below is the screenshot attched for xs-400 of About Me Page, The About Me container would align in the centre and the nav bar is also collapsed into a toggle
+Below is the screenshot attched for xs-400 of Portfolio Page, The Portfolio container would align in the centre and the nav bar is also collapsed into a toggle
 
-![cxs-400 screenshot](assets/portfolio/cxs-400.png)
+![cxs-400 screenshot](assets/portfolio/pxs-400.png)
 
-### About Me sm-screen
+### Portfolio sm-screen
 
 The small screen is basically used for tablets and the navigation bar is collapsed to maintain consistency , neat look and feel
 
-![csm-768 screenshot](assets/portfolio/csm-700.png)
+![csm-768 screenshot](assets/portfolio/psm-700.png)
 
-### About Me md-screen
+### Portfolio md-screen
 
 The medium screen is basically used for by general desktops. The Navigation bar will display all the three different links, 
 
-![cmd-900 screenshot](assets/portfolio/cmd-900.png)
+![pmd-900 screenshot](assets/portfolio/pmd-900.png)
+
+## Contact-Me
+
+This contact page has three user input fields which can gather information from an external user eventually.
+
+### Contact-Me xs-screen
+
+Below is the screenshot attched for xs-400 of Contact Me Page, The Contact Me container would align in the centre and the nav bar is also collapsed into a toggle
+
+![cxs-400 screenshot](assets/Contact-Me/cxs-400.png)
+
+### Contact-Me sm-screen
+
+The small screen is basically used for tablets and the navigation bar is collapsed to maintain consistency , neat look and feel
+
+![csm-768 screenshot](assets/Contact-Me/csm-700.png)
+
+### Contact Me md-screen
+
+The medium screen is basically used for by general desktops. The Navigation bar will display all the three different links, 
+
+![cmd-900 screenshot](assets/Contact-Me/cmd-900.png)
 
 NOTE: I COULD NOT CAPTURE FEW SCREENSHOTS EXACTLY BECAUSE OF SOME TECHNICAL ISSUES IN MY MACHINE.
 
